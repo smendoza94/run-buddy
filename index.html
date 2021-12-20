@@ -13,13 +13,15 @@
     <header>
 
         <h1>
-            <a href="index.html">🏃RUN BUDDY🏃</a>
+            <a href="index.html">RUN BUDDY</a>
         </h1>
         <nav>
             <!-- List item element -->
             <ul>
             <!-- anchor element -->
-            <a href="#what-we-do">What We Do</a>
+                <li>
+                    <a href="#what-we-do">What We Do</a>
+                </li>
                 <li>
                     <a href="#what-you-do">What You Do</a>
                 </li>
@@ -38,7 +40,7 @@
         <div class="hero-form">
             <h3>Get Started Today!</h3>
             <p>Fill out this form and one of our trainers will schedule a consult.</p>
-            <!-- add form element -->
+            <!-- user sign up form element -->
             <form action="">
                 <label for="name">Enter full name:</label>
                 <input type="text" placeholder="Your Name" name="name" id="name" class="form-input"/>
@@ -106,8 +108,44 @@
     </section>
 
     <!-- "meet the trainers" section-->
-    <section>
-        <h2>Meet the Trainers</h2>
+    <section id="your-trainers" class="trainers">
+        <h2 class="section-title primary-border">Meet the Trainers</h2>
+        <!-- trainer 1 bio -->
+        <article class="trainer">
+            <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron.">
+            <div class="trainer-bio text-left">
+                <h3>Arron Stephens</h3>
+                <h4>Speed / Strength</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptatum nesciunt similique a, officia quidem voluptate obcaecati? 
+                    Unde voluptatem quae nisi non. Perspiciatis, eum. Aliquam voluptas veritatis possimus consequuntur facilis.
+                </p>
+            </div>
+        </article>
+        <!-- trainer 2 bio -->
+        <article class="trainer">
+            <div class="trainer-bio text-right">
+                <h3>Jonna Gill</h3>
+                <h4>Endurance</h4>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, tempora? Exercitationem id a veniam quia ratione. Est corrupti 
+                    molestias voluptate cupiditate voluptates dolore asperiores iste ullam, optio iure consequuntur ab!
+                </p>
+            </div>
+            <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout">
+        </article>
+        <!-- trainer 3 bio -->
+        <article class="trainer">
+            <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights">
+            <div class="trainer-bio text-left">
+                <h3>Harry "the Headband" Smith</h3>
+                <h4>Strength</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eveniet laudantium earum saepe iure adipisci, voluptates ullam 
+                    blanditiis, soluta facere inventore corporis dolorem repellendus! Autem pariatur magni nisi quisquam eligendi!
+                </p>
+            </div>
+        </article>
     </section>
 
     <!-- "reach out" section-->
