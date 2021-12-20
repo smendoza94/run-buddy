@@ -7,25 +7,25 @@
 body {
     font-family: helvetica, arial, sans-serif;
     background-color: #FEFEE3;
-    color: #0D1F22;
+    color: #024e76;
 }
 
 header {
     padding: 20px 35px;
-    background-color: #0d1f22;
+    background-color: #024e76;
 }
 
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: #5b9279;
+    color: #fce138;
     margin: 0;
     display: inline;
 }
 
 header a {
     text-decoration: none;
-    color: #5b9279;
+    color: #fce138;
 }
 
 header nav {
@@ -44,14 +44,14 @@ header nav ul li a {
 }
 
 footer {
-    background: #0D1F22;
+    background: #024e76;
     width: 100%;
     padding: 40px 35px;
 }
 
 footer h2 {
     display: inline;
-    color: #5b9279;
+    color: #fce138;
     font-size: 30px;
     margin: 0;
 }
@@ -63,7 +63,7 @@ footer div {
 }
 
 footer a {
-    color:#5b9279;
+    color:#fce138;
 } 
 
 section {
@@ -126,3 +126,27 @@ section {
 }
 
 /* Hero Style End */
+
+/* What We Do section Style start */
+.intro {
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid #fce138;
+    display: inline-block;
+}
+
+.intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+/* What We Do section Style end */
