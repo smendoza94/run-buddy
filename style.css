@@ -64,4 +64,31 @@ footer div {
 
 footer a {
     color:#5b9279;
+} 
+
+section {
+    padding: 60px;
+}
+
+/* Hero Style Start */
+.hero {
+    background-image: url("../run-buddy/assets/images/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/* Hero Style End */
+
+.hero-form {
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    /* start border declare and properties */
+    border: solid 3px #024e76;
+    /* end border */
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
 }
